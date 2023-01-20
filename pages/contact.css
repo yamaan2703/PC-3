@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,900&family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Nunito:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,900&family=Raleway:wght@100;400&family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Nunito:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,900&family=Raleway:wght@100;400&family=Rowdies&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/******************* section1-contact Start *******************/
+#section1-contact{
+    background-image: url(images/bg-9.jpg);
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+#section1-contact .overlay {
+    background: rgba(0, 0, 0, .5);
+    height: 70vh;
+}
+/******************* section1-contact Header Start *******************/
+.header .logo img {
+    width: 80px;
+    margin: 0;
+    padding: 0;
+}
+.nav-active{
+    background-color: #303642 !important;
+}
+
+.nav-link {
+    color: whitesmoke !important;
+}
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header ul li a:hover {
+    color: white;
+}
+
+.header ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: rgb(9, 179, 170);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.header ul li:hover::after {
+    width: 100%;
+}
+
+.header button {
+    color: #00A79D;
+}
+
+.header .navbar-toggler-icon {
+    color: #00A79D;
+}
+
+/******************* section1-contact Header End *******************/
+
+
+/******************* section1-contact Home Start *******************/
+#section1-contact .home {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 5.5em;
+    /* color: #402d2d; */
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 10px;
+    width: 100%;
+    background-color: #00A79D;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    /* font-family: Baskerville, serif; */
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+  .olx-icon{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    position: fixed;
+} 
+/******************* section1-contact Home End *******************/
+/******************* section1-contact End *******************/
+
+
+/******************* section2-contact Start *******************/
+#section2-contact{
+    background-color: #00A79D;
+}
+#section2-contact .details{
+    width: 90%;
+    /* margin-left: 10%; */
+}
+#section2-contact .details h1 {
+    background: linear-gradient(to right, #00A79D, #303642, #303642, #303642);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+#section2-contact .details h3{
+    color: #303642;
+    font-size: 30px;
+}
+#section2-contact .details span {
+    background: linear-gradient(to right, #00A79D, #303642, #303642, #303642);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    padding-right: 10px;
+}
+#section2-contact .details p {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #00A79D;
+    font-weight: bold;
+}
+#section2-contact .contact-text{
+    margin-top: 45px !important;
+}
+#section2-contact .contact-text h1 {
+    background: linear-gradient(to right, #00A79D, #303642, #303642, #303642);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+#section2-contact .contact-text h3{
+    color: #303642;
+    font-size: 35px;
+}
+#section2-contact .contact-text span {
+    background: linear-gradient(to right, #00A79D, #303642, #303642, #303642);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 20px;
+    padding-right: 10px;
+}
+#section2-contact .contact-text p {
+    padding-right: 10px;
+    font-size: 20px;
+    color: #00A79D;
+    font-weight: bold;
+}
+
+
+/******************* section2-contact End *******************/
+
+/******************* Service Footer Start *******************/
+.footer{
+    background-color: #303642;
+    height: 270px;
+}
+.footer .footer-img img{
+     width: 20%;
+}
+.footer .footer-icon span{
+      color: #00A79D;
+      font-size: 30px;
+      padding: 10px;
+}
+/******************* Service Footer End *******************/
+
+
+
+@media screen and (max-width: 770px){
+    #section1-contact .home {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        width: 80%;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+    .ml5 {
+        position: relative;
+        font-weight: 300;
+        font-size: 3.5em;
+        /* color: #402d2d; */
+      }
+      .ml5 .line {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 2px;
+        width: 100%;
+        background-color: #00A79D;
+        transform-origin: 0.5 0;
+      }
+      #section2-contact .details{
+        width: 100%;
+        /* margin-left: 10%; */
+    }
+    #section2-contact .details h1 {
+        background: linear-gradient(to right, #00A79D, #303642, #303642, #303642);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+    }
+    #section2-contact .details h3{
+        color: #303642;
+        font-size: 25px;
+    }
+    .footer{
+        background-color: #303642;
+        height: 300px;
+    }
+    .footer .footer-img img{
+         width: 90%;
+    }
+    .footer .footer-icon span{
+          color: #00A79D;
+          font-size: 30px;
+          padding: 10px;
+    }
+    }
