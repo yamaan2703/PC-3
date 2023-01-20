@@ -32,8 +32,12 @@
     background-color: #303642 !important;
 }
 
+.active{
+    color: #04d4c7 !important;
+}
+
 .nav-link {
-    color: whitesmoke !important;
+    color: whitesmoke;
 }
 .header .navbar-nav .nav-item {
     list-style: none;
